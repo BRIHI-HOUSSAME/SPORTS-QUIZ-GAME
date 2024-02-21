@@ -1,0 +1,182 @@
+body {
+    background-color: #E0DBFF;
+    font-family: 'Kiwi Maru', serif;
+    position: absolute;
+}
+a {
+    text-decoration: none;
+}
+#Question {
+    color: black;
+    font-size: 5vmin;
+    text-align: center;
+    margin-top: 10vmin;
+}
+
+.ICON {
+    width: 60vmin;
+    height: 75vmin;
+    margin-bottom: 5vmin;
+    background-size: cover;
+}
+
+.BTNS-CONTAINER {
+    width: fit-content;
+    margin-top: 25vmin;
+    margin-left: 20vmin;
+
+}
+
+.btns {
+    margin-top: 5vmin;
+    width: 30vmin;
+    height: 8vmin;
+    background-color: #7669BF;
+    border-radius: 10px;
+    color: white;
+    text-indent: 3vmin;
+    font-size: 5vmin;
+}
+
+.CIRCLE {
+    width: 10vmin;
+    height: 10vmin;
+    border-radius: 50%;
+    border: white 3px solid;
+    background-color: #7669BF;
+    position: relative;
+    top: 3.5vmin;
+    right: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 6vmin;
+}
+
+.ATTEMPTS-FONT-SIZE {
+    margin-top: 5vmin;
+    width: 30vmin;
+    height: 8vmin;
+    background-color: #7669BF;
+    border-radius: 10px;
+    color: white;
+    text-indent: 2.5vmin;
+    font-size: 3vmin;
+    position: relative;
+}
+
+.ATTEMPTS-FONT-SIZE span {
+    position: relative;
+    top: 1.5vmin;
+}
+
+.BTN-CIRCLE {
+    display: flex;
+    position: relative;
+}
+
+.answer-keyboard {
+    width: fit-content;
+    height: 75vmin;
+}
+
+#CONTAINER {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.answer {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.ANSWER-SECTION{
+    font-size: 5vmin;
+    width: 7vmin;
+    height: 7vmin;
+    border-bottom: #7669BF solid 3px;
+    margin-right: 4vmin;
+    margin-bottom: 10vmin;
+    text-align: center;
+}
+.keyboard {
+    width: 100%;
+    height: 50%;
+}
+.row {
+    display: flex;
+}
+.key {
+    font-family: 'Kiwi Maru', serif;
+    background-color: #E0DBFF;
+    cursor: pointer;
+    margin-bottom: 2vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+    width: 7vmin;
+    height: 7vmin;
+    border: #7669BF solid 3px;
+    border-radius: 5px;
+    margin-right: 2vmin;
+}
+#row3 {
+    margin-left: 5vmin;
+    display: flex;
+}
+#row4 {
+    margin-left: 16vmin;
+    display: flex;
+}
+.STROKE-ICONE{
+    width: 60vmin;
+    height: 75vmin;
+    margin-bottom: 5vmin;
+    background-size: cover;
+    background-color: #E0DBFF;
+    z-index: 122;
+    position:relative;
+    bottom: 80vmin;
+}
+
+.subDiv {
+    border: 1px solid #000;
+  }
+.FINISH-GAME{
+    display: none;
+    width: 100vmin;
+    height: 50vmin;
+    background-color: aliceblue;
+    position:relative;
+    bottom: 155vmin;
+    left: 55vmin;
+    z-index: 200;
+    border-radius: 10vmin;
+    text-align: center;
+}
+.LOSE{
+    color: #7669BF;
+    font-size: 10vmin;
+}
+.LOSE-ICON{
+    width: 20vmin;
+    height: 20vmin;
+    background-size: cover;
+    margin-left: 40vmin;
+    margin-bottom: 2vmin;
+}
+.TRY-AGAIN{
+    width: 20vmin;
+    height: 5vmin;
+color: white;
+background-color: #7669BF;
+border-radius: 2vmin;
+border: #7669BF 2px solid;
+margin-left: 40vmin;
+cursor: pointer;
+}

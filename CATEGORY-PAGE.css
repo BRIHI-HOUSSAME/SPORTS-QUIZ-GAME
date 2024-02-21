@@ -1,0 +1,57 @@
+body{
+    background-color: #E0DBFF;
+    font-family: 'Kiwi Maru', serif;
+}
+h1{
+    font-size: 50px;
+    color: #7669BF;
+    text-align: center;
+}
+#CONTAINER{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.CATEGORY{
+width:50vmin  ;
+height: 80vmin;
+}
+.CATEGORY-ICONE{
+width: 100%;
+height: 80%;
+cursor: pointer;
+}
+.TITLE{
+color: #7669BF;
+font-size: x-large;
+margin-left: 5vmin;
+}
+#football{
+    background-image: url(FOOTBALL.png);
+    background-size: cover
+}
+#basketball{
+   background-image: url(BASKETBALL.png);
+    background-size: cover
+}
+#tennis{
+    background-image: url(TENNIS.png);
+    background-size: cover
+
+}
+#tennis:hover{
+    background-image: url(TENNIS.gif);
+    background-size: cover
+
+}
+#football:hover{
+    background-image: url(FOOTBALL.gif);
+    background-size: cover
+}
+#basketball:hover{
+    background-image: url(BASKETBALL.gif);
+     background-size: cover
+ }
+
+
+

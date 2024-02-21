@@ -1,0 +1,39 @@
+{
+    "football": {
+      "question0": "who is the best football club in history",
+      "answer0": "Barcelona",
+      "question1": "How many players are there in a standard football team?",
+      "answer1": "11",
+      "question2": "Who is the best football player in history ",
+      "answer2": "MESSI",
+      "question3": "In which city is the Camp Nou stadium located?",
+      "answer3": "Barcelona",
+      "question4": "What is the duration of a standard football match?",
+      "answer4": "90 minutes"
+    },
+    "basketball": {
+      "question0": "How many players are on the court for each team in a basketball game?",
+      "answer0": "Five",
+      "question1": "What is the name of the hoop in basketball?",
+      "answer1": "Basket",
+      "question2": "How many points is a three-point shot worth in basketball?",
+      "answer2": "Three",
+      "question3": "who is the best basketball player in the world ?",
+      "answer3": "James",
+      "question4": "What is the height of a standard basketball hoop?",
+      "answer4": "10feet"
+    },
+    "tennis": {
+      "question0":"How many players are there in a standard game of tennis?" ,
+      "answer0": "Two",
+      "question1": "How many Grand Slam tournaments are there in a calendar year?",
+      "answer1": "four",
+      "question2": "Who is known as the 'Swiss Maestro' in tennis?",
+      "answer2": " Federer",
+      "question3": "What is the color of tennis ball?",
+      "answer3": "yellow",
+      "question4": "Which country does tennis player Rafael Nadal represent?",
+      "answer4": "Spain"
+    }
+  }
+  

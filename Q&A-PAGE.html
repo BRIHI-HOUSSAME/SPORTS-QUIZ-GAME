@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A-PAGE</title>
+    <link rel="stylesheet" href="Q&A-PAGE.css">
+    <script src="https://kit.fontawesome.com/f8618ee835.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 id="Question"></h1>
+    <div id="CONTAINER">
+        <div id="ICON" class="ICON"></div>
+        <div class="answer-keyboard">
+            <div id="ANSWER-CONTAINER" class="answer">
+            </div>
+            <div id="KEYBOARD" class="keyboard">
+                <div class="row">
+                    <button class="key" id="0" onclick="getId(this)">0</button>
+                    <button class="key" id="1" onclick="getId(this)">1</button>
+                    <button class="key" id="2" onclick="getId(this)">2</button>
+                    <button class="key" id="3" onclick="getId(this)">3</button>
+                    <button class="key" id="4" onclick="getId(this)">4</button>
+                    <button class="key" id="5" onclick="getId(this)">5</button>
+                    <button class="key" id="6" onclick="getId(this)">6</button>
+                    <button class="key" id="7" onclick="getId(this)">7</button>
+                    <button class="key" id="8" onclick="getId(this)">8</button>
+                    <button class="key" id="9" onclick="getId(this)">9</button>
+                </div>
+                <div class="row">
+                    <button class="key" id="A" onclick="getId(this)">A</button>
+                    <button class="key" id="Z" onclick="getId(this)">Z</button>
+                    <button class="key" id="E" onclick="getId(this)">E</button>
+                    <button class="key" id="R" onclick="getId(this)">R</button>
+                    <button class="key" id="T" onclick="getId(this)">T</button>
+                    <button class="key" id="Y" onclick="getId(this)">Y</button>
+                    <button class="key" id="U" onclick="getId(this)">U</button>
+                    <button class="key" id="I" onclick="getId(this)">I</button>
+                    <button class="key" id="O" onclick="getId(this)">O</button>
+                    <button class="key" id="P" onclick="getId(this)">P</button>
+                </div>
+                <div id="row3">
+                    <button class="key" id="Q" onclick="getId(this)">Q</button>
+                    <button class="key" id="S" onclick="getId(this)">S</button>
+                    <button class="key" id="D" onclick="getId(this)">D</button>
+                    <button class="key" id="F" onclick="getId(this)">F</button>
+                    <button class="key" id="G" onclick="getId(this)">G</button>
+                    <button class="key" id="H" onclick="getId(this)">H</button>
+                    <button class="key" id="J" onclick="getId(this)">J</button>
+                    <button class="key" id="K" onclick="getId(this)">K</button>
+                    <button class="key" id="L" onclick="getId(this)">L</button>
+                </div>
+                <div id="row4">
+                    <button class="key" id="C" onclick="getId(this)">C</button>
+                    <button class="key" id="M" onclick="getId(this)">M</button>
+                    <button class="key" id="X" onclick="getId(this)">X</button>
+                    <button class="key" id="V" onclick="getId(this)">V</button>
+                    <button class="key" id="W" onclick="getId(this)">W</button>
+                    <button class="key" id="B" onclick="getId(this)">B</button>
+                    <button class="key" id="N" onclick="getId(this)">N</button>
+                </div>
+            </div>
+        </div>
+        <div class="BTNS-CONTAINER">
+            <div class="BTN-CIRCLE">
+                <div class="btns"><span>TIME</span></div>
+                <div id="TIMER" class="CIRCLE">0</div>
+            </div>
+            <div class="BTN-CIRCLE">
+                <div class="ATTEMPTS-FONT-SIZE"><span>ATTEMPTS</span></div>
+                <div id="ATTEMPTS" class="CIRCLE">5</div>
+            </div>
+            <a href="CATEGORY-PAGE.html">
+                <div class="BTN-CIRCLE">
+                    <div id="BACK" class="btns"><span>BACK</span></div>
+                    <div class="CIRCLE"><i class="fa-solid fa-arrow-left"></i></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- <div id="STROKE-ICONE" class="STROKE-ICONE"></div>
+    <div id="FINISH-GAME" class="FINISH-GAME">
+        <h1 id="LOSE" class="LOSE">YOU LOSE!</h1>
+        <div id="LOSE-ICON" class="LOSE-ICON"></div>
+        <a href="Q&A-PAGE.html"><div class="TRY-AGAIN"><span>TRY AGAIN</span></div></a>
+    </div> -->
+
+    <script src="Q&A-PAGE.js"></script>
+</body>
+
+</html>

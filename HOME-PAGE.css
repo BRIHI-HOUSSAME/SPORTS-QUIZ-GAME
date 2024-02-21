@@ -1,0 +1,43 @@
+body{
+    font-family: 'Kiwi Maru', serif;
+    background-image: url(Untitled82_20231212115005.png);
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+#CONTAINER{
+    /* background-color: aqua; */
+    margin-right: 50px;
+    margin-top: 18%;
+}
+.TITLE{
+width: 265px;
+height: 55px;
+color: #7669BF;
+font-size: xx-large;
+text-align: center;
+border-radius: 10px;
+border: 1px solid #7669BF;
+background: #FFF;
+}
+.START{
+    font-size: x-large;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    width: 111px;
+    font-family: 'Kiwi Maru', serif;
+    background-color: #7669BF;
+    border: solid 2px white;
+    margin-top: 20px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+i{
+    cursor: pointer;
+    font-size: xx-large;
+    color: white;
+}
